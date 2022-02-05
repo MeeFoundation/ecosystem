@@ -2,7 +2,7 @@
 
 ### Topics
 
-- [PDSes](PDSes.md)
+- [PDSes](PDSes.md) - a review of personal data stores/services
 
 ## Contributions
 
