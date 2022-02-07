@@ -1,6 +1,6 @@
 # Personal Data Stores/Services (PDSes)
 
-PDSes come in a variety of flavors. Some are commercial, others are open source. Some have an API to allow 3rd party developers to build apps on top of them. 
+PDSes come in a variety of flavors. Some are commercial, others are open source. 
 
 Missing information is displayed in cells with no values. Tables are in alphabetic order by the first column.
 
