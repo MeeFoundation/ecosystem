@@ -7,7 +7,7 @@ Missing information is displayed in cells with no values. Tables are in alphabet
 ### Commercial
 
 | Product                                            | Provider                                  | Dev. Stage | MyData | Description                                                  | API     |
-| :------------------------------------------------- | :---------------------------------------- | :--------: | :----: | :----------------------------------------------------------- | ------- |
+| :------------------------------------------------- | :---------------------------------------- | :--------: | :----: | :----------------------------------------------------------- | :------ |
 | Cozy Cloud                                         | [Cozy Cloud](https://cozy.io/en/)         |            |  yes   | A smart personal cloud to gather all your data               | Cozy    |
 | [HAT Microserver](https://www.hubofallthings.com/) | [DataSwift.io](https://www.dataswift.io/) |            |   -    | Infrastructure for Decentralised Data Mobility and Interoperability | HAT     |
 | MeeCo						     | [MeeCo](https://MeeCo.me)		 |            |  yes   | The infrastructure for trusted personal data ecosystems      | MeeCo   |
