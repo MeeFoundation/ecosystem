@@ -4,26 +4,27 @@ A PDS is a service that lets you store your own personal data in a secure and st
 
 ### Commercial
 
-| Product                                            | Provider                                  |  Stage   | MO | Description                                                  | I                                                 | E                                                 | A                                                 | RW                                               | Spec  |
-| :------------------------------------------------- | :---------------------------------------- | :--------: | :----: | :----------------------------------------------------------- | :------ | ------- | ------- | ------- | ------- |
-| Cozy Cloud                                         | [Cozy Cloud](https://cozy.io/en/)         |            |  yes   | "A smart personal cloud to gather all your data"             |              |              |     |     | Cozy    |
-| [HAT Microserver](https://www.hubofallthings.com/) | [DataSwift.io](https://www.dataswift.io/) |            |   -    | "Infrastructure for Decentralised Data Mobility and Interoperability" |  |  |  |  | HAT     |
-| MeeCo						     | [MeeCo](https://MeeCo.me)		 |            |  yes   | "The infrastructure for trusted personal data ecosystems"    |     |     |     |     | MeeCo   |
-| [Mydex PDS](https://mydex.org/platform-services/#personal-data-store) | [Mydex.org](https://mydex.org/) 		 |  Released  |  yes   | "Our personal data stores equip individuals with tools to collect, store, use and share their data to manage their lives better." |  |  |  |  | Mydex     |
-| Own Your Info 				     | OwnYourInfo   				 |            |        | "Your Personal Data Vault"                                   |                                    |                                    |                                    |                                    | OwnYourInfo |
-| Prifina                                            | [Prifina.com](http://Prifina.com)         |    Beta    |   -    |                                                              |                                                              |                                                              |                                                              |                                                              | Prifina |
-| Enterprise Solid Server                            | [Inrupt](https://inrupt.com)              |            |   -    | "Unite personal data where it belongs, *with people"*        |         |         |         |         | [Solid](https://github.com/solid/solid-spec) |
-| Self             				     | SelfInnovations.ai      			 |	      |  yes   | "[T]he first full stack solution for human centric technology." |  |  |  |  | Self |
+| Product                                            | Provider                                  | Description                       | Stage    | MO | I                                                 | E                                                 | A                                                 | RW                                               | Spec  |
+| :------------------------------------------------- | :---------------------------------------- | :--------: | :----: | :----------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| Cozy Cloud                                         | [Cozy Cloud](https://cozy.io/en/)         | "A smart personal cloud to gather all your data" |            |  yes   |              |              |     | ✔︎  |     |
+| Digi.me | [Digi.me Ltd](https://digi.me) | "Private Sharing. Safely empowering you with your digital life for better value and services" | Released |  |  |  |  | ✔︎ |  |
+| Enterprise Solid Server | [Inrupt](https://inrupt.com) | Safely empowering you with your digital life for better value and services"Unite personal data where it belongs, *with people"* | | - |  |  |  | ✔︎ | [Solid](https://github.com/solid/solid-spec) |
+| [HAT Microserver](https://www.hubofallthings.com/) | [DataSwift.io](https://www.dataswift.io/) | "Infrastructure for Decentralised Data Mobility and Interoperability" |            |   -    |  |  |  | ✔︎ |      |
+| MeeCo						     | [MeeCo](https://MeeCo.me)		 | "The infrastructure for trusted personal data ecosystems"	|            |  yes   |     |     | ✔︎  | ✔︎ | [API-of-Me](https://docs.meeco.me/) |
+| [Mydex PDS](https://mydex.org/platform-services/#personal-data-store) | [Mydex.org](https://mydex.org/) 		 | "Our personal data stores equip individuals with tools to collect, store, use and share their data to manage their lives better." |  Released  |  yes   |  |  |  | ✔︎ |      |
+| Own Your Info 				     | [OwnYourInfo](https://www.ownyourinfo.com/) | "Your Personal Data Vault" |            |        |                                    |                                    |                                    |                                    |  |
+| Prifina                                            | [Prifina.com](http://Prifina.com)         |          |    Beta    |   -    | ✔︎ |                                                              |                                                              | ✔︎ |  |
+| Self             				     | [Self Innovations, Inc](SelfInnovations.ai) | "[T]he first full stack solution for human centric technology." |	      |  yes   |  |  |  |  |  |
 
 ### Open Source
 
-| Developer                                 | Project                           | Provider                         | Repo                                                         |  MO  | Description                                                  | I    | E    | A    | RW   | Spec                                         | License    |
-| ----------------------------------------- | --------------------------------- | -------------------------------- | ------------------------------------------------------------ | :--: | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | -------------------------------------------- | ---------- |
-| [atsign.com](https://atsign.com)          | [@platform](https://atsign.dev/)  | [atsign.com](https://atsign.com) |                                                              |  -   |                                                              |      |      |      |      | @platform                                    |            |
-| [Empathy.io](http://empathy.io)           | Liquid                            |                                  |                                                              |      |                                                              |      |      |      |      | Liquid                                       | Apache 2.0 |
-| [HIEofOne](https://hieofone.com/)         | [HIEofOne](https://hieofone.com/) |                                  | [GitHub](https://github.com/HIEofOne)                        |  -   | "Managing personal health information shouldn’t be so hard." |      |      |      |      |                                              | MIT        |
-| [Personium.io](https://personium.io)      | Personium                         | -                                | [GitHub](https://github.com/personium/)                      | yes  | "An interconnectable open source PDS (Personal Data Store) server envisioning world wide web of protected data APIs." |      |      |      |      | Personium                                    | Apache 2.0 |
-| [Solid Project](https://solidproject.org) | Molid                             | -                                | [GitLab](https://gitlab.com/angelo-v/molid-mock-solid-server) |  -   | "Mock Solid Server"                                          |      |      |      |      | [Solid](https://github.com/solid/solid-spec) | MIT        |
+| Developer                                 | Project                           | Provider                         | Description                                                  | Repo                                                         |  MO  | I    | E    | A    | RW   | Spec                                         | License    |
+| ----------------------------------------- | --------------------------------- | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | :--: | ---- | ---- | ---- | ---- | -------------------------------------------- | ---------- |
+| [atsign.com](https://atsign.com)          | [@platform](https://atsign.dev/)  | [atsign.com](https://atsign.com) |                                                              |                                                              |  -   |      |      |      |      | @platform                                    |            |
+| [Empathy.io](http://empathy.io)           | Liquid                            |                                  |                                                              |                                                              |      |      |      |      |      | Liquid                                       | Apache 2.0 |
+| [HIEofOne](https://hieofone.com/)         | [HIEofOne](https://hieofone.com/) |                                  | "Managing personal health information shouldn’t be so hard." | [GitHub](https://github.com/HIEofOne)                        |  -   |      |      |      |      |                                              | MIT        |
+| [Personium.io](https://personium.io)      | Personium                         | -                                | "An interconnectable open source PDS (Personal Data Store) server envisioning world wide web of protected data APIs." | [GitHub](https://github.com/personium/)                      | yes  |      |      |      |      |                                              | Apache 2.0 |
+| [Solid Project](https://solidproject.org) | Molid                             | -                                | "Mock Solid Server"                                          | [GitLab](https://gitlab.com/angelo-v/molid-mock-solid-server) |  -   |      |      |      |      | [Solid](https://github.com/solid/solid-spec) | MIT        |
 
 **Notes:**
 
@@ -34,8 +35,8 @@ A PDS is a service that lets you store your own personal data in a secure and st
   - Released - a commercially available PDS
 - **MO** - the PDS has received the MyData Operator Award ([details](https://mydata.org/mydata-operators/award/))
 - **I[mport]** data from one or more sources via a connector interface
-- **E[dit]** your data - built in UI for review/edit
-- **A[uthorize]** access by apps to your data
-- **RW**  - read/write your data via an API
+- **E[dit]** your data - built in UI for review/edit of user's data
+- **A[uthorize]** access by apps to user's data
+- **RW** - read/write user's data by an external app via an API
 - **Spec** - specification for PDS interfaces
 - **License** used for reference implementation source code
