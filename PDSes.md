@@ -40,5 +40,5 @@ A PDS is a service that lets you store your own personal data in a secure and st
 - **A[uthorize]** access by external apps to user's data through a UI
 - **[D]ata sharing** agreement with external app
 - **[R]ead/Write** - user's data by an external app via an API
-- **Spec** - specification for PDS interfaces
+- **Spec** - a link to the specification docment for the PDS' interface(s)
 - **License** used for reference implementation source code
