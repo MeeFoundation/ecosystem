@@ -1,5 +1,13 @@
 # Personal Data Stores/Services (PDSes)
 
+A PDS is a service that lets you store your own personal data in a secure and structured manner. It may also includes the following capabilities:
+
+- Import data from one or more sources, usually via connector plug-ins
+- Ability to review your data
+- Ability to edit your data
+- Authorize access to your data from external apps 
+- Provide a read and/or write access API
+
 This page lists commercially and open-source PDSes that are still being actively developed. Missing information is displayed in cells with no values. Tables are in alphabetic order by the first column. See the Notes section at the bottom for info about column headings.
 
 ### Commercial
@@ -9,7 +17,7 @@ This page lists commercially and open-source PDSes that are still being actively
 | Cozy Cloud                                         | [Cozy Cloud](https://cozy.io/en/)         |            |  yes   | "A smart personal cloud to gather all your data"             | Cozy    |
 | [HAT Microserver](https://www.hubofallthings.com/) | [DataSwift.io](https://www.dataswift.io/) |            |   -    | "Infrastructure for Decentralised Data Mobility and Interoperability" | HAT     |
 | MeeCo						     | [MeeCo](https://MeeCo.me)		 |            |  yes   | "The infrastructure for trusted personal data ecosystems"    | MeeCo   |
-| Mydex         				     | [Mydex.org](https://mydex.org/) 		 |  Released  |  yes   | "Our personal data stores equip individuals with tools to collect, store, use and share their data to manage their lives better." | Mydex     |
+| [Mydex PDS](https://mydex.org/platform-services/#personal-data-store) | [Mydex.org](https://mydex.org/) 		 |  Released  |  yes   | "Our personal data stores equip individuals with tools to collect, store, use and share their data to manage their lives better." | Mydex     |
 | Own Your Info 				     | OwnYourInfo   				 |            |        | "Your Personal Data Vault"                                   | OwnYourInfo |
 | Prifina                                            | [Prifina.com](http://Prifina.com)         |    Beta    |   -    |                                                              | Prifina |
 | Enterprise Solid Server                            | [Inrupt](https://inrupt.com)              |            |   -    | "Unite personal data where it belongs, *with people"*        | [Solid](https://github.com/solid/solid-spec) |
