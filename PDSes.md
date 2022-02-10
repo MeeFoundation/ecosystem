@@ -28,7 +28,7 @@ A PDS is a service that lets you store your own personal data in a secure and st
 | [Personium.io](https://personium.io)      | [Personium.io](https://personium.io)                         | -                                | "An interconnectable open source PDS (Personal Data Store) server envisioning world wide web of protected data APIs." | [GitHub](https://github.com/personium/)                      | yes  |      |      |      |      |      |                                                              | Apache 2.0 |
 | [Solid Project](https://solidproject.org) | Molid                                                        | -                                | "Mock Solid Server"                                          | [GitLab](https://gitlab.com/angelo-v/molid-mock-solid-server) |  -   |      |      |      |      |      | [Solid](https://github.com/solid/solid-spec)                 | MIT        |
 
-**Notes:**
+**Notes**
 
 - **Provider** - means the name of the/a firm that offers hosting of this PDS 
 - **Stage**:
