@@ -1,16 +1,3 @@
----
-title: "Ecosystem Overview"
-description: "Ecosystem Overview"
-lead: "Ecosystem Overview"
-date: 2022-02-11T09:19:42+01:00
-lastmod: 2022-02-11T09:19:42+01:00
-draft: false
-weight: 50
-slug: 'sample'
-contributors: ["Paul Trevithick"]
----
-
-
 # Ecosystem Overview
 
 ### Topics
