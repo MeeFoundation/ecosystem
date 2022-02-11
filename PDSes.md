@@ -34,12 +34,12 @@ A PDS is a service that lets you store your own personal data in a secure and st
 - **Stage**:
   - Pre-Beta - announced by not yet available
   - Beta - a pre-release version available to selected beta testers
-  - Released - a commercially available PDS
+  - Released - a commercially available or v1.0+ version PDS
 - **MO** - the PDS has received the MyData Operator Award ([details](https://mydata.org/mydata-operators/award/))
-- **I[mport]** - includes one or more connector components to import data from well known data sources 
+- **I[mport]** - includes "connector" components to import data from well known data sources 
 - **E[dit]** your data - includes built-in UI for review/edit of user's data
 - **A[uthorize]** access by external apps to user's data through a UI
 - **[D]ata sharing** agreement with external app
 - **[R]ead/Write** - user's data by an external app via an API
-- **Spec** - a link to the specification docment for the PDS' interface(s)
+- **Spec** - a link to the specification document for the PDS' interface(s)
 - **License** used for reference implementation source code
