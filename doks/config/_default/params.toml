@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
-titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title = "MEE"
+titleSeparator = " "
+titleAddition = "Foundation"
+description = "MEE Foundation"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -28,7 +28,7 @@ schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaAuthorGitHub = "https://github.com/h-enk"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo.svg"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
 schemaImage = "doks.png"
