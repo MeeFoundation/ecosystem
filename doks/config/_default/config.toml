@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://mee.foundation/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
