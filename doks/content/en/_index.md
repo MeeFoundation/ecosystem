@@ -1,3 +1,3 @@
 # Ecosystem Overview
 
-- [PDSes](mee-docs/pdses) - a review of personal data stores/services
+- [Personal Data Stores/Services](mee-docs/ecosystem/) - a review of personal data stores/services
