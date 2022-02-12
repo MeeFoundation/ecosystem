@@ -4,6 +4,6 @@
 
 Notes: 
 -styles config is in /assets/scss/
--blog content path: /content/en/blog
+-content path: /content/en/mee-doc
 - [PDSes](../pdses) - a review of personal data stores/services 
 note that path should be in lowercase
