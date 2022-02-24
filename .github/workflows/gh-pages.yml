@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        working-directory: ./doks
+        working-directory: ./geekDocs
         run: hugo --minify
 
       - name: Deploy
