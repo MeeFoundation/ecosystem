@@ -1,0 +1,11 @@
+more:
+  - name: Articles
+    ref: "/articles"
+  # - name: Releases
+  #   ref: "https://github.com/thegeeklab/hugo-geekdoc/releases"
+  #   external: true
+  #   icon: "gdoc_download"
+  # - name: "View Source"
+  #   ref: "https://github.com/thegeeklab/hugo-geekdoc"
+  #   external: true
+  #   icon: "gdoc_github"
