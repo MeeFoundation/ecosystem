@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://mee.foundation"
 title = "Mee Docs"
 theme = "hugo-geekdoc"
 
