@@ -24,6 +24,12 @@ jobs:
       - name: Build
         working-directory: ./geekDocs
         run: hugo --minify
+        
+      - name: copy CNAME
+        uses: canastro/copy-file-action@master
+        with:
+          source: "geekDocs/CNAME"
+          target: "geekDocs/public/CNAME"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
