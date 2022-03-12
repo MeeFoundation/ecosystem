@@ -1,4 +1,4 @@
-# Personal Data Stores/Services (PDSes)
+# Personal Data Services
 
 A PDService is a user-consumable service for managing personal data. They are layered on top of lower-level [PDStore](PDStore.md) components and add higher level services such as data syncronization to external data sources, and often user interfaces for editing data, granting access. 
 
