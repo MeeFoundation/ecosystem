@@ -1,16 +1,21 @@
 # Ecosystem Overview
 
-### Topics
+### Offerings
 
-- [PDSes](PDSes.md) - a review of personal data stores/services
+- [PDService](PDService.md) - a review of personal data services (user-level)
 
-## Contributions
+### Technology
+
+- [PDStore]([PDStore.md]) - review of personal data stores (component level)
+
+### Contributions
 
 Written by Paul Trevithick ([@paultrevithick](https://twitter.com/paultrevithick))
 
 Contributions from:
 
 - Maria Vasuytenko
+- Iain Henderson
 
 
 
