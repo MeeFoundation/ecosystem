@@ -1,12 +1,12 @@
 # Ecosystem Overview
 
-### Offerings
+### Commercial offerings
 
-- [PDService](PDService.md) - a review of personal data services (user-level)
+- [PDService](PDService.md) - a review of personal data services for end-users
 
-### Technology
+### Technology components
 
-- [PDStore]([PDStore.md]) - review of personal data stores (component level)
+- [PDStore](PDStore.md) - review of personal data stores
 
 ### Contributions
 
