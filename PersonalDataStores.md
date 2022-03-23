@@ -1,7 +1,5 @@
 # Personal Data Stores
 
-A PDStore is low data storage component that stores personal data in a secure and structured manner. A PDStore is a building block for building higer-level, user-consumable [PDServices](PDService.md). 
-
 This page lists commercially and open-source PDStores that are under active development. Missing information is displayed in empty cells. Tables are in alphabetic order by the first column. See the Notes section at the bottom for info about column headings.
 
 ### Commercial

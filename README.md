@@ -2,15 +2,11 @@
 
 ### Personal Data Services
 
-A PDService is a user-consumable service for managing personal data. They are layered on top of lower-level [PDStore](PDStore.md) components and add higher level services such as data syncronization to external data sources, and often user interfaces for editing data, granting access. 
+- [Personal Data Services](PersonalDataServices.md) - services for managing personal data. They are layered on top of lower-level *Personal Data Store* components and add higher level services such as data syncronization to external data sources, and user interfaces for editing data, granting access. 
 
-- [PDService](PDService.md) - a review of personal data services for end-users
+### Tech
 
-### Personal Data Stores
-
-A PDStore is low data storage component that stores personal data in a secure and structured manner. A PDStore is a building block for building higer-level, user-consumable [PDServices](PDService.md). 
-
-- [PDStore](PDStore.md) - review of personal data stores
+- [Personal Data Stores](PDStores.md) - storage components that store personal data in a secure and structured manner. A *Personal Data Store* is a building block for building end-user Personal Data Services.
 
 ### Contributions
 
