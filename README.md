@@ -6,7 +6,7 @@
 
 ### Tech
 
-- [Personal Data Stores](PDStores.md) - storage components that store personal data in a secure and structured manner. A *Personal Data Store* is a building block for building end-user Personal Data Services.
+- [Personal Data Stores](PDStores.md) - storage components that store personal data in a secure and structured manner. A *Personal Data Store* is a building block for building end-user *Personal Data Services*.
 
 ### Contributions
 
