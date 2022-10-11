@@ -1,0 +1,109 @@
+{
+    "UserProfile": {
+        "$schema": "https://raw.githubusercontent.com/MeeFoundation/design-notes/main/person-schema.json?token=GHSAT0AAAAAABQ22PCTDWDQTNAY2BGE3VGAYSRP7BA",
+        "$id": "https://gitbhub.com/MeeFoundation/design-notes/alex1",
+        "seedPhrase": "the very quick brown fox landed extremely softly on the moon's surface",
+        "currentPersonaId": "work",
+        "contextMetadata": [
+            {
+                "context": "C1",
+                "encryptionKey": "base64:blah...",
+                "app": "UUIDV4:password-manager-app-id",
+                "contextProvider": {
+                    "url": "github.com"
+                },
+                "groupId": [
+                    "0xw0983542"
+                ]
+            },
+            {
+                "context": "C2",
+                "encryptionKey": "base64:blah...",
+                "appID": "UUIDV4:Mee-form-filler-app-id",
+                "contextProvider": {
+                    "url": "amazon.com"
+                }
+            }
+        ],
+        "personaMetadata": [
+            {
+                "persona": "P1",
+                "encryptionKey": "base64:blah..."
+            }
+        ]
+    },
+    "personas": [
+        {
+            "personaId": "P1",
+            "accessMode": "RW",
+            "context": [
+                "0x00B"
+            ],
+            "subject": [
+                {
+                    "name": "AWS Devops Swift",
+                    "comment": "...starting here: user attributes common to corresponding subject in each contextId listed in contextIds"
+                }
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "groupId": "G1",
+            "name": "Work-related"
+        }
+    ],
+    "contexts": [
+        {
+            "ContextId": "root",
+            "subject": [
+                {
+                    "name": "Swift Invention",
+                    "correlation": [
+                        "S1"
+                    ]
+                }
+            ]
+        },
+        {
+            "contextId": "C1",
+            "accessMode": "RW",
+            "vaultServer": {
+                "connect": "urieo:jdfkldk"
+            },
+            "subject": [
+                {
+                    "subjectId": "S1",
+                    "name": "Swift Github Account",
+                    "account": {
+                        "loginURL": "https://auth.github.com",
+                        "username": "alex-swift",
+                        "secret": "NotAGoodPassword"
+                    },
+                    "comment": "starting here: user attributes..."
+                }
+            ],
+            "created": "2012-01-01",
+            "updated": "2013-04-07"
+        },
+        {
+            "contextId": "C2",
+            "accessMode": "RO",
+            "subject": [
+                {
+                    "name": "Swift AWS Account",
+                    "account": {
+                        "LoginURL": "https://account.aws.amazon.com",
+                        "username": "devops@swiftinvention.com",
+                        "secret": "PrettyBadPassword"
+                    },
+                    "comment": "starting here: user attributes..."
+                }
+            ],
+            "created": "2017-04-09",
+            "group": [
+                "G1"
+            ]
+        }
+    ]
+}
