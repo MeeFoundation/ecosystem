@@ -17,6 +17,7 @@ pipeline {
             steps {
                 sh "mdbook build . "
                 sh """
+                    sleep 15s;
                 	docker build -t $OCR/$NAME:$BUILD_NUMBER -t $OCR/$NAME:$TAG -t $OCR/$NAME:latest -f Dockerfile  .
                     docker push $OCR/$NAME:$BUILD_NUMBER
                     docker push $OCR/$NAME:$TAG
