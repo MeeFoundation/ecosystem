@@ -1,7 +1,6 @@
 # Summary
 
-[Welcome](./README.md)
-# Documentation
+[Welcome to Mee](./README.md)
 - [Privacy agent](./Privacy_agent.md)
 - [Architecture](./Architecture.md)
 - [Data](./Data.md)
