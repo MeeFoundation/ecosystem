@@ -30,3 +30,6 @@ In the sample data shown below, a user, Alice, has two groups. The first group r
 * **User device key pair** is a key pair is generated and stored on the user device. Device private key can be used to encrypt the user account private key.
 * **Client key pair** is key pair to identify client app or website
 * **Context key** is a key to encrypt user data in the context.
+
+#
+[<p><img src="images/edit.svg" style="width: 15px;margin-right: 6px;text-color: #4F868E;" alt="Edit Page" />Edit this page</p>](https://github.com/MeeProject/ecosystem/edit/mdBook/src/Data.md)

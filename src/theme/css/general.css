@@ -345,3 +345,12 @@ kbd {
 .result-no-output {
     font-style: italic;
 }
+
+.chapter li.chapter-item {
+  margin-top: 1.2em !important;
+  font-size: 16px !important;
+}
+
+.sidebar .sidebar-scrollbox {
+  padding: 10px 20px !important;
+}

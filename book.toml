@@ -9,3 +9,4 @@ theme = "src/theme"
 no-section-label = true
 additional-js = ["src/theme/logo.js"]
 git-repository-url = "https://github.com/MeeProject/ecosystem/tree/mdBook"
+fold.enable = true

@@ -24,3 +24,7 @@ The following diagram illustrates these concepts and introduces the notion of co
 ![F5_locations_exclusive_and_replicated](./images/F5_locations_exclusive_and_replicated.png)
 
 .
+
+
+#
+[<p><img src="images/edit.svg" style="width: 15px;margin-right: 6px;text-color: #4F868E;" alt="Edit Page" />Edit this page</p>](https://github.com/MeeProject/ecosystem/edit/mdBook/src/Concepts.md)
