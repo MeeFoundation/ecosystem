@@ -12,6 +12,6 @@ bin/mdbook build
 
 ### Develop
 
-cd path/to/mdbook
-bin/mdbook serve
+1. cd path/to/mdbook
+2. bin/mdbook serve
 
