@@ -8,7 +8,7 @@ Although a privacy agent is an interactive application, it operates mostly in th
 
 The agent represents both the user's *selfness* and *whonesses* (see [Concepts](Concepts.md) for more about these concepts)
 
-The selfness of the user is held in a data container called the *Self*. The contents of the Self are holistic and therefore quite sensitive. For this reason they would normally not be shared in a direct or comprehensive form with others. This self abstraction is at the heart of what enables the Mee architecture to be a ""*meta*-identity system," as opposed to an identity system. The user's self is the point of integration across contexts each of which may be from differing identity systems. 
+The selfness of the user is held in a data container called the *Self*. The contents of the Self are holistic and therefore quite sensitive. For this reason they would normally not be shared in a direct or comprehensive form with others. This self abstraction is at the heart of what enables the Mee architecture to be a "*meta*-identity system," as opposed to an identity system. The user's self is the point of integration across contexts each of which may be from differing identity systems. 
 
 Each context is represented by a *context* data container. A directed *correlation* link points from an entity in the self to the entities representing the user in each context. For privacy reasons only the user should know that each of these separate contexts contain representations of the same individual. Each context may define its own identifier namespace, schemas, state management, communications protocols, UI, UX, etc. 
 
@@ -54,4 +54,3 @@ The following table provides an overview of the functionality of an agent:
 #
 
 [<p><img src="images/edit.svg" style="width: 15px;margin-right: 6px;text-color: #4F868E;" alt="Edit Page" />Edit this page</p>](https://github.com/MeeProject/ecosystem/edit/mdBook/src/Privacy_agent.md)
-  
