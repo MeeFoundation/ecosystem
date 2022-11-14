@@ -15,3 +15,5 @@ bin/mdbook build
 1. cd path/to/mdbook
 2. bin/mdbook serve
 
+1. cd path/to/mdbook
+2. bin/mdbook serve
