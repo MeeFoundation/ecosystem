@@ -1,6 +1,6 @@
-# Personal Data Stores
+# Personal DataStores
 
-This page lists commercially and open-source Personal Data Stores that are under active development. Missing information is displayed in empty cells. Tables are in alphabetic order by the first column. See the Notes section at the bottom for info about column headings.
+This page lists commercially and open-source Personal Datastores that are under active development. Missing information is displayed in empty cells. Tables are in alphabetic order by the first column. See the Notes section at the bottom for info about column headings.
 
 ### Commercial
 
@@ -14,7 +14,7 @@ This page lists commercially and open-source Personal Data Stores that are under
 | ----------------------------------------- | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | :--: | ---- | ------------------------------------------------------------ | ---------- |
 | [Empathy.io](http://empathy.io)           | Liquid                                                       |          |                                                              |                                                              |      |      | Liquid                                                       | Apache 2.0 |
 | [HIEofOne](https://hieofone.com/)         | [HIEofOne](https://hieofone.com/)                            |          | "Managing personal health information shouldn’t be so hard." | [GitHub](https://github.com/HIEofOne)                        |  -   |      |                                                              | MIT        |
-| [DIF](https://identity.foundation/)       | [Identity Hub](https://identity.foundation/identity-hub/spec/) | -        | "Identity Hubs are a data storage and message relay mechanism entities can use to locate public or private permissioned data related to a given Decentralized Identifier (DID)" | [GitHub](https://github.com/decentralized-identity/identity-hub) |  -   |      | [Identity Hub](https://identity.foundation/identity-hub/spec/) |            |
+| [DIF](https://identity.foundation/)       | [DWN](https://identity.foundation/decentralized-web-node/spec/) | -        | "Data storage and message relay mechanism entities can use to locate public or private permissioned data related to a given Decentralized Identifier (DID)" | [GitHub](https://github.com/decentralized-identity/identity-hub) |  -   |      | [Identity Hub](https://identity.foundation/identity-hub/spec/) |            |
 | [Personium.io](https://personium.io)      | [Personium.io](https://personium.io)                         | -        | "An interconnectable open source PDS (Personal Data Store) server envisioning world wide web of protected data APIs." | [GitHub](https://github.com/personium/)                      | yes  |      |                                                              | Apache 2.0 |
 | [Solid Project](https://solidproject.org) | Molid                                                        | -        | "Mock Solid Server"                                          | [GitLab](https://gitlab.com/angelo-v/molid-mock-solid-server) |  -   |      | [Solid](https://github.com/solid/solid-spec)                 | MIT        |
 
