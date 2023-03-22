@@ -1,4 +1,4 @@
-# Personal DataStores
+# Personal Datastores
 
 This page lists commercially and open-source Personal Datastores that are under active development. Missing information is displayed in empty cells. Tables are in alphabetic order by the first column. See the Notes section at the bottom for info about column headings.
 
