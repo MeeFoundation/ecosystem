@@ -2,7 +2,7 @@
 
 ### Personal Data Services
 
-- [Personal Data Services](PersonalDataServices.md) - services for managing personal data. They are layered on top of lower-level *Personal Data Store* components and add higher level services such as data syncronization to external data sources, and user interfaces for editing data, granting access. 
+- [Personal Data Services](PersonalDataServices.md) - services for managing personal data. They are layered on top of lower-level *Personal Data Store* components and add higher level services such as data syncronization to external data sources, and user interfaces for editing data and granting access. 
 
 ### Personal Data Stores
 
