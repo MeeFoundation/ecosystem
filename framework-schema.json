@@ -1,0 +1,74 @@
+{
+   "comment": "This file is out of date. It needs to be updated to track recent changes in the person.json example",
+   "$schema": "http://json-schema.org/draft-07/schema",
+   "$id": "https://github.com/MeeFoundation/design-notes/person-schema.json",
+   "title": "Personal data schema",
+   "description": "Schema for the Mee personal data store. For simplicity context array is embeded in a single file. In practice different contexts would live in different storage mechanisms",
+   "type": "object",
+   "properties": {
+      "root": {
+         "type": "object",
+         "properties": {
+            "seedPhrase" : {
+               "description": "A set of 12 words defined/chosen by the user from which key pairs can be generated",
+               "type": "string"
+            },
+            "refs": {
+               "type": "array",
+               "items": {
+                  "type":"object",
+                  "properties": {
+                     "uuid": {
+                        "description": "id of one of the Mee user's Context objects",
+                        "type":"string"
+                     },
+                     "encryptionKey" : {
+                        "description": "a key used to encrypt the contents of the Context",
+                        "type": "string",
+                        "comment": "need to more strongly type/specify this"
+                     },
+                     "appID": {
+                        "description": "A unique indentifier for a mobile, desktop or webapp app that is used to access the context. E.g. 'Mobile-Safari' ",
+                        "type": "string",
+                        "comment": "need to type this more strongly than a string"
+                     },
+                     "domain": {
+                        "type": "array",
+                        "items": {
+                           "type":"string"
+                        }
+                     } 
+                  }
+               }
+            }
+         }
+      },
+      "contexts": {
+         "type": "array",
+         "items": {
+            "type": "object",
+            "properties": {
+               "ContextID": {
+                  "description": "Unique identifier of this context object",
+                  "type":"string"
+               },
+               "contextURL": {
+                  "description": "A unique identifier of a context. An example would be a website URL. E.g. 'amazon.com' ",
+                  "type": "string",
+                  "comment": "need to type this more strongly than a string"
+               },
+
+               "userID": {
+                  "description": "A unique identifier for the user within this context. E.g. 'ptrevithick@gmail.com' ",
+                  "type": "string"
+               },
+               "password": {
+                  "description": "password for UserID",
+                  "type":"string"
+               }
+            },
+            "required": [ "ContextID", "ContextURL", "AppID", "UserID" ]
+         }
+      }
+   }
+}
